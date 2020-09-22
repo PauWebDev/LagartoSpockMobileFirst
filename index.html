@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="description" content="Juego de la mítica serie The Big Bang Theory, creado por Sheldon Copper>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="piedra, papel, tijera, lagarto, spock, sheldon Copper, sheldon, Copper, Juego">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Sheldon Copper</title>
+
+    <link rel="stylesheet" href="/LagartoSpockMobileFirst/css/normalize.css">
+    <link rel="stylesheet" href="/LagartoSpockMobileFirst/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="web-name">juego de sheldon copper</h1>
+            <h3 class="elige">elige una opción y prueba tu suerte</h3>
+            <nav class="main-nav">
+                <button class="opcion" onclick="seleccion(0)">piedra</button>
+                <button class="opcion" onclick="seleccion(1)">papel</button>
+                <button class="opcion" onclick="seleccion(2)">tijera</button>
+                <button class="opcion" onclick="seleccion(3)">lagarto</button>
+                <button class="opcion" onclick="seleccion(4)">spock</button>
+            </nav>
+        </div>        
+    </header>
+
+    <main class="main">
+        <section class="container">
+            <div class="image-char" id="player">
+
+            </div>
+            <div class="image-char" id="versus">
+                <img src="/LagartoSpockMobileFirst/image/versus.webp" alt="">
+            </div>
+            <div class="image-char" id="cpu">
+                
+            </div>
+
+            <button class="opcion">reset</button>
+
+            <div class="container" id="resultado">result</div>
+        </section>
+    </main>
+       
+    <script src="/LagartoSpockMobileFirst/js/main.js"></script>
+    
+</body>
+</html>
