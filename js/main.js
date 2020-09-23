@@ -160,7 +160,4 @@ function seleccion(humano) {
     if (resultadoTxt[resultado] == resultadoTxt[2]) {
         id_resultado.textContent = " Has perdido"
     }
-
-
-
 }
