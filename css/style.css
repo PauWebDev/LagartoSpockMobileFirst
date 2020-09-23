@@ -12,7 +12,6 @@ body {
     overflow-x: hidden;
     max-width: 1920px;
     width: 100vw;
-    background-color: azure;
 }
 .container {
     width: 90%;
@@ -46,6 +45,9 @@ body {
     height: 40px;
     background-color: #0099f6;
     border: none;
+}
+.main-content {
+    background-color: #fff;
 }
 .main .container {
     display: flex;
