@@ -37,7 +37,7 @@ function seleccion(humano) {
 
     }
     if (personaje[humano] == personaje[1]) {
-        id_player.style.background = "url('./image/papel.png')";
+        id_player.style.backgroundImage = "url('./image/papel.png')";
         id_player.style.backgroundRepeat = "no-repeat";
         id_player.style.backgroundPosition = "center";
     }
