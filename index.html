@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="description" content="Juego de la mítica serie The Big Bang Theory, creado por Sheldon Copper>
@@ -14,35 +15,36 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id="main-header">
         <div class="container">
             <h1 class="web-name">juego de sheldon copper</h1>
-            <h3 class="elige">elige una opción y prueba tu suerte</h3>
+            <h3 class="elige">elige una opción</h3>
             <nav class="main-nav">
-                <button class="opcion" onclick="seleccion(0)">piedra</button>
-                <button class="opcion" onclick="seleccion(1)">papel</button>
-                <button class="opcion" onclick="seleccion(2)">tijera</button>
-                <button class="opcion" onclick="seleccion(3)">lagarto</button>
-                <button class="opcion" onclick="seleccion(4)">spock</button>
+                <button class="opcion" onclick="seleccion(0)"><a href="#main-content">piedra</a></button>
+                <button class="opcion" onclick="seleccion(1)"><a href="#main-content">papel</a></button>
+                <button class="opcion" onclick="seleccion(2)"><a href="#main-content">tijera</a></button>
+                <button class="opcion" onclick="seleccion(3)"><a href="#main-content">lagarto</a></button>
+                <button class="opcion" onclick="seleccion(4)"><a href="#main-content">spock</a></button>
             </nav>
         </div>        
     </header>
 
-    <main class="main">
+    <main class="main" id="main-content">
         <section class="container">
             <div class="image-char" id="player">
 
             </div>
-            <div class="image-char" id="versus">
-                <img src="/LagartoSpockMobileFirst/image/versus.webp" alt="">
+            <div class="image-char image-flex" id="versus">
+                <img src="/LagartoSpockMobileFirst/image/versus.webp" alt="Versus">
             </div>
             <div class="image-char" id="cpu">
                 
             </div>
 
-            <button class="opcion">reset</button>
+            <div class="container result-content" id="explicacion"></div>
 
-            <div class="container" id="resultado">result</div>
+            <div class="container result-content" id="resultado"></div>
+            <button class="retry"><a href="#main-header">otro intento</a></button>
         </section>
     </main>
        
