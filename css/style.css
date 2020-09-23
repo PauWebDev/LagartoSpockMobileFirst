@@ -48,6 +48,7 @@ body {
 }
 .main-content {
     background-color: #fff;
+    height: 100vh;
 }
 .main .container {
     display: flex;
