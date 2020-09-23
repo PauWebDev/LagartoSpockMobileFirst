@@ -97,45 +97,45 @@ function seleccion(humano) {
 
     // hacemos que se muestren las imagenes de los personajes según la elección hecha
     if (personaje[humano] == personaje[0]) {
-        id_player.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/piedra.png')";
+        id_player.style.backgroundImage = "url('../image/piedra.png')";
         id_player.style.backgroundRepeat = "no-repeat";
         id_player.style.backgroundPosition = "center";
 
     }
     if (personaje[humano] == personaje[1]) {
-        id_player.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/papel.png')";
+        id_player.style.backgroundImage = "url('../image/papel.png')";
         id_player.style.backgroundRepeat = "no-repeat";
         id_player.style.backgroundPosition = "center";
     }
     if (personaje[humano] == personaje[2]) {
-        id_player.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/tijera.png')";
+        id_player.style.backgroundImage = "url('../image/tijera.png')";
         id_player.style.backgroundRepeat = "no-repeat";
         id_player.style.backgroundPosition = "center";
     }
     if (personaje[humano] == personaje[3]) {
-        id_player.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/lagarto.png')";
+        id_player.style.backgroundImage = "url('../image/lagarto.png')";
         id_player.style.backgroundRepeat = "no-repeat";
         id_player.style.backgroundPosition = "center";
     }
     if (personaje[humano] == personaje[4]) {
-        id_player.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/spock.png')";
+        id_player.style.backgroundImage = "url('../image/spock.png')";
         id_player.style.backgroundRepeat = "no-repeat";
         id_player.style.backgroundPosition = "center";
     }
 
 
     if (personaje[cpu] == personaje[0]) {
-        id_cpu.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/piedra.png')";
+        id_cpu.style.backgroundImage = "url('../image/piedra.png')";
         id_cpu.style.backgroundRepeat = "no-repeat";
         id_cpu.style.backgroundPosition = "center";
     }
     if (personaje[cpu] == personaje[1]) {
-        id_cpu.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/papel.png')";
+        id_cpu.style.backgroundImage = "url('../image/papel.png')";
         id_cpu.style.backgroundRepeat = "no-repeat";
         id_cpu.style.backgroundPosition = "center";
     }
     if (personaje[cpu] == personaje[2]) {
-        id_cpu.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/tijera.png')";
+        id_cpu.style.backgroundImage = "url('../image/tijera.png')";
         id_cpu.style.backgroundRepeat = "no-repeat";
         id_cpu.style.backgroundPosition = "center";
     }
@@ -145,7 +145,7 @@ function seleccion(humano) {
         id_cpu.style.backgroundPosition = "center";
     }
     if (personaje[cpu] == personaje[4]) {
-        id_cpu.style.backgroundImage = "url('../LagartoSpockMobileFirst/image/spock.png')";
+        id_cpu.style.backgroundImage = "url('../image/spock.png')";
         id_cpu.style.backgroundRepeat = "no-repeat";
         id_cpu.style.backgroundPosition = "center";
     }
