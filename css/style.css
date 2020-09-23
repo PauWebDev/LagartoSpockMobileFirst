@@ -86,6 +86,7 @@ footer p {
     bottom: 0;
     left: 0;
     z-index: -1;
+    width: 100%;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
