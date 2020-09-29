@@ -1,44 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100&display=swap");
 * {
     box-sizing: border-box;
 }
-:root{
+
+:root {
     scroll-behavior: smooth;
 }
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     letter-spacing: 1.3px;
     overflow-x: hidden;
     max-width: 1920px;
     width: 100vw;
 }
+
 .container {
     width: 90%;
     margin: 10px auto;
 }
+
 .header .web-name {
     text-transform: uppercase;
     text-align: center;
     background-color: #000;
     color: #f2c300;
     padding: 10px 0px;
+    font-size: 0.8em;
 }
-.header .elige {
-    text-align: center;
-    color: #df0000;
-}
+
 .header .main-nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin-bottom: 20px;
 }
-.header .main-nav a, .main .retry a {
+
+.header .main-nav a,
+.main .retry a {
     text-decoration: none;
     color: #fff;
 }
-.header button, .main button {
+
+.header button,
+.main button {
     text-transform: uppercase;
     margin: 5px;
     min-width: 100px;
@@ -53,22 +59,25 @@ body {
     align-items: center;
     justify-content: center;
 }
-.main .image-char {
-  width: 100%;
-  height: 200px;
-  background-size: contain;
-  transition: all .2s ease-in-out;
 
+.main .image-char {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    transition: all 0.2s ease-in-out;
 }
+
 .main .image-char img {
     width: 100%;
     max-width: 150px;
 }
+
 .main .image-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .result-content {
     text-transform: uppercase;
     background-color: #df0000;
@@ -79,25 +88,21 @@ body {
     width: 100%;
     text-align: center;
 }
+
 footer p {
     text-align: center;
-
 }
 
+
 /* Medium devices (landscape tablets, 768px and up) */
-   @media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 768px) {
     .main .container {
         flex-flow: row wrap;
     }
     .main .image-char {
         width: 33%;
         height: 450px;
-        transition: all .2s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
-   } 
-
-
-
-
-
-
+}
